@@ -5,6 +5,7 @@ import MainLoader from './components/helpers/MainLoader'
 import { ErrorBoundary } from 'react-error-boundary'
 import ErrorUI from './components/layouts/globals/ErrorUI'
 
+// Context API
 import VeichleState from './context/veichle/veichleState'
 
 const Home = React.lazy(() => import('./components/pages/Home'))
