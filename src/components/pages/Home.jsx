@@ -115,7 +115,7 @@ const Home = (props) => {
 
                                                     <select onChange={(e) => setType(e.target.value)}  className='form-control lg custom-select'>
 
-                                                        <option value="" selected>Sort By</option>
+                                                        <option value="price" selected>Sort By</option>
                                                         <option value="price">Price</option>
                                                         <option value="distance">Distance</option>
 
